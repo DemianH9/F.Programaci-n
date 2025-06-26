@@ -17,7 +17,7 @@ def reservar_zapatillas():
         return
 
     clave = input("Digite la palabra secreta para confirmar la reserva: ")
-    if clave != "EstoyEnListaDeReserva":
+    if clave != "EstoyEnListaDeReserva": #porfavor ingrese exactamnete como esta puesto 
         print("Error: palabra clave incorrecta. Reserva no realizada.")
         return
 
